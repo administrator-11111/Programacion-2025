@@ -24,12 +24,9 @@ float ValorAbsoluto(float numero) { //Valor absoluto de un número
 
 float CalcularRaiz(float numero) { //Método por bisección
     float minima = 0.0, media = 0.0, maxima = numero, proximacion = 0.00001;
-    int i;
-    i = 0;
-    media = (minima+maxima)/2;
+    media = (minima + maxima)/2;
     while(ValorAbsoluto(numero - media*media) > proximacion) {
         media = (minima+maxima)/2;
-            
         if ((media * media) > numero) {
             maxima = media;
         } else {
