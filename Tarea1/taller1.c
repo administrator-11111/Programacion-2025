@@ -1,9 +1,6 @@
 /* Aclaraciones: 
-- Para obtener la desviación estandar se debe sacar la 
-  raíz cuadrada de la varianza y al no poder utilizar math.h utilicé el
-  método por bisección para obtenerla con una función.
-- También necesitaba el valor absoluto en la función para
-  calcular la raíz, así que realicé un función para obtenerlo.
+- Para obtener la desviación estandar se debe sacar la raíz cuadrada de la varianza y al no poder utilizar math.h utilicé el método por bisección para obtenerla con una función.
+- También necesitaba el valor absoluto en la función para calcular la raíz, así que realicé un función para obtenerlo.
 */
 #include <stdio.h>
 
