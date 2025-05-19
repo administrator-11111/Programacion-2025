@@ -1,5 +1,4 @@
-/*
-Aclaraciones: 
+/* Aclaraciones: 
 - Para obtener la desviación estandar se debe sacar la 
   raíz cuadrada de la varianza y al no poder utilizar math.h utilicé el
   método por bisección para obtenerla con una función.
