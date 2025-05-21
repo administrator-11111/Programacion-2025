@@ -48,6 +48,5 @@ int main() {
             printf("Por favor, ingrese un día válido.\n");
         }
     }
-
     return 0;
 }
