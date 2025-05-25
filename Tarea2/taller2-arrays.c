@@ -69,13 +69,13 @@ int main() {
     }
     
     printf("===== RESUMEN DE INGRESOS DIARIO =====\n");
-    printf("== (Solo se muestran d¡as que que hubo ingresos)\n");
+    printf("== (Solo se muestran d¡as que que hubo ingresos mayores a $0)\n");
     for(int i = 0; i < DIAS_MES; i++) {
         if (ganancia_diaria[i] >= 1.0) {
             printf("%2d/"MES_ACTUAL"/"ANO_ACTUAL": $%.2f\n", i + 1, ganancia_diaria[i]);
         }
     }
-    printf("\n::::: RESUMEN MENSUAL :::::\n");
+    printf("\n\n::::: RESUMEN MENSUAL :::::\n");
     for (int d = 0; d < DIAS_MES; d++) {
         printf(":: DÖA %02d\n", d + 1);
         int autos_registrados = 0;
