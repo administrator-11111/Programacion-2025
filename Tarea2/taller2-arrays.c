@@ -1,5 +1,5 @@
-
 #include <stdio.h>
+
 #define LIMITE_ESTACIONAMIENTO 5
 #define DIAS_MES    30
 #define MES_ACTUAL    "5"
