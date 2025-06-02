@@ -1,6 +1,7 @@
 #include <stdio.h>
 #define MAX_DIGITOS 8   // Máximo de dígitos de rut en chile
 
+// Prototipos de funciones
 void SolicitarDatos(int*, char*); 
 int CalculoDigitoVerificador(int, int);
 void SepararRut(int, int []); 
@@ -12,6 +13,7 @@ int main() {
     return 0;
 }
 
+// Funciones
 void VerificadorRut() {
     int rut;
     char verificador;
@@ -51,9 +53,9 @@ int CalculoDigitoVerificador(int rut, int digito_ingresado) {
 }
 
 void SolicitarDatos(int * rut, char * verificador) {
-    printf("Ingrese su rut (sin digito verificador, ejemplo: 22333444):\n>> ");
+    printf("[*] Ingrese su rut (sin digito verificador y sin puntos, ejemplo: 22333444):\n>> ");
     scanf("%d", *&rut);
-    printf("Ingrese el dígito verificador de su rut:\n>> ");
+    printf("[*] Ingrese el dígito verificador de su rut:\n>> ");
     scanf(" %c", *&verificador);
 }
 
@@ -77,10 +79,3 @@ char ConvertirDigitoVerificador(int verificador) {
     }
     return codigo;
 }
-
-
-
-
-
-
-
